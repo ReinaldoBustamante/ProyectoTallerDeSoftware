@@ -1,0 +1,52 @@
+{
+  "listaramos": [
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G2",
+      "id": 3
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G1",
+      "id": 4
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G2",
+      "id": 5
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G2",
+      "id": 6
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G3",
+      "id": 7
+    },
+    {
+      "nombreAsignatura": "Algebra Lineal Para Ingenieria G1",
+      "id": 8
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G3",
+      "id": 9
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G3",
+      "id": 10
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G2",
+      "id": 12
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G1",
+      "id": 13
+    },
+    {
+      "nombreAsignatura": "Calculo I Para Ingenieria G1",
+      "id": 14
+    },
+    {
+      "nombreAsignatura": "Algebra Lineal Para Ingenieria G1",
+      "id": 15
+    }
+  ]
+}

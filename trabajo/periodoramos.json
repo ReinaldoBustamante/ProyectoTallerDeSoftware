@@ -1,0 +1,21 @@
+{
+    "periodoramos": [
+        {   
+            "hora": "8:10-9:40",
+            "asignatura": "Calculo I Para Ingenieria G1",
+            "periodo": 1,
+            "ramoLunes": "Calculo 1 G1",
+            "ramoJueves": "Calculo 1 G1",
+            "ramoViernes": "Calculo 1 G1"
+        },
+        {   
+            "hora": "9:50-11:20",
+            "asignatura": "Calculo I Para Ingenieria G1",
+            "periodo": 2,
+            "ramoMartes": "Calculo 1 G1"
+        }
+
+      
+    ]
+}
+        

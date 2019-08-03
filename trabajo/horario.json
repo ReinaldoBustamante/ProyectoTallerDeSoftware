@@ -1,0 +1,65 @@
+{
+  "horario": [
+    {
+      "periodo": "8:10-9:40",
+      "ramoLunes": "Calculo 1 G1",
+      "ramoJueves": "Calculo 1 G1",
+      "ramoViernes": "Calculo 1 G1",
+      "id": 1
+    },
+    {
+      "periodo": "9:50-11:20",
+      "ramoLunes": "",
+      "ramoMartes": "",
+      "ramoMiercoles": "",
+      "ramoJueves": "",
+      "ramoViernes": "",
+      "id": 2
+    },
+    {
+      "periodo": "9:50-11:20",
+      "ramoLunes": "",
+      "ramoMartes": "",
+      "ramoMiercoles": "",
+      "ramoJueves": "",
+      "ramoViernes": "",
+      "id": 3
+    },
+    {
+      "periodo": "9:50-11:20",
+      "ramoLunes": "",
+      "ramoMartes": "",
+      "ramoMiercoles": "",
+      "ramoJueves": "",
+      "ramoViernes": "",
+      "id": 4
+    },
+    {
+      "periodo": "9:50-11:20",
+      "ramoLunes": "",
+      "ramoMartes": "",
+      "ramoMiercoles": "",
+      "ramoJueves": "",
+      "ramoViernes": "",
+      "id": 5
+    },
+    {
+      "periodo": "15:50-17:20",
+      "id": 6,
+      "ramoLunes": "",
+      "ramoMartes": "",
+      "ramoMiercoles": "",
+      "ramoJueves": "",
+      "ramoViernes": ""
+    },
+    {
+      "periodo": "17:30-19:00",
+      "id": 7,
+      "ramoLunes": "",
+      "ramoMartes": "",
+      "ramoMiercoles": "",
+      "ramoJueves": "",
+      "ramoViernes": ""
+    }
+  ]
+}
