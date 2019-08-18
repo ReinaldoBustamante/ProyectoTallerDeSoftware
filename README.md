@@ -1,5 +1,7 @@
 Inicializacion
 
+-instalar nodejs https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi
+
 - ubicar la consola en la carpeta del proyecto
 
 - escribir los siguientes comando en consola:
