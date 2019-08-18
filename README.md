@@ -7,8 +7,11 @@ Inicializacion
   npm install
   
   json-server horario.json -p 4000
+  
   json-server listaramos.json -p 4001
+  
   json-server ramosdisp.json -p 4002
+  
   json-server periodoramos.json -p 4003
 
   estos 4 ultimos son necesario para ocupar correctamente la seccion de horario.
