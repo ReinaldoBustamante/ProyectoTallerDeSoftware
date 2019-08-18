@@ -5,7 +5,7 @@ import Lista from './Lista'
 function ListaRamo({ramos, guardarRecargarRamos, guardarRecargarHorario}){
     return(
         <Fragment>
-            <Link to ="/horario" className="btn btn-primary mr-2 btn-sm  ">volver</Link>
+            <Link to ="/horario" className="btn btn-warning mr-2 btn-sm  ">volver</Link>
             <h1 className="text-center">Lista Ramo</h1>
             <ul className = "list-group mt-5">
                 {ramos.map(ramos =>(

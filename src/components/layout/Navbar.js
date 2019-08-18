@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link, NavLink} from 'react-router-dom';
+import SearchStudents from '../ComponentesNavbar/SearchStudents';
 
 const Navbar = () =>(
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -15,6 +16,9 @@ const Navbar = () =>(
                 </li>
            </ul>
         </div>
+        <div>
+              <SearchStudents />
+          </div>
     </nav>
 )
 export default Navbar;

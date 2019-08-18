@@ -1,4 +1,4 @@
-const malla =
+const malla_2008 =
 [
     {
         num_sem: 1,
@@ -681,4 +681,4 @@ const malla =
     },
 ];
 
-export default malla;
+export default malla_2008;

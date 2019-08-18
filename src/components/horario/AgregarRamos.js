@@ -1,4 +1,4 @@
-    import React, {useState,Fragment} from 'react';
+import React, {useState,Fragment} from 'react';
 import Form from './Form';
 import {Link} from 'react-router-dom';
 import Error from './Error';
@@ -121,7 +121,7 @@ function AgregarRamos({ramosdisp, guardarRecargarRamos,history, guardarRecargarH
                 Swal.fire({
                     type: 'error',
                     title: 'Error. ya agrego este ramo',
-                    text: 'si desea agregar este ramo. eliminelo e intente nuevamente',
+                    text: 'si desea agregar este ramo o un grupo en paralelo. eliminelo e intente nuevamente',
                 })
                 guardarRecargarRamos(true);
                 const url = `http://localhost:4001/listaramos/${ramos.length+1}`
@@ -138,14 +138,14 @@ function AgregarRamos({ramosdisp, guardarRecargarRamos,history, guardarRecargarH
     }
     return(
        <Fragment>
-           <Link to ="/horario" className="btn btn-primary mr-2 btn-sm  ">volver</Link>
+           <Link to ="/horario" className="btn btn-warning mr-2 btn-sm  ">volver</Link>
            <div className="col-md-8 mx-auto">
             <h1 className="text-center">Agregar Ramo</h1>
             {(error) ? <Error mensaje='Es necesario que seleccione un ramo'/> : null}
             <form className="mt-5" onSubmit={agregarRamo}>
                 <div className="form-group">
                     <label>Ramos Disponibles</label>
-                    <select multiple  className="form-control" onChange={e =>guardarRamo(e.target.value)}>
+                    <select multiple  className="form-control" id="exampleFormControlSelect2" onChange={e =>guardarRamo(e.target.value)}>
                         {ramosdisp.map(ramosdisp =>(
                             <Form 
                             key={ramosdisp.id}

@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import Periodo from './Periodo';
 import {Link} from 'react-router-dom';
+
 function Horario({horario}){
     return(
         <Fragment>
