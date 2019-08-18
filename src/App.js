@@ -23,8 +23,7 @@ function App() {
   //Lista Ramos Disponibles
   const [ramosdisp, guardarRamosDisp] = useState([]);
 
-  //periodo ramos
-  const [periodoRamos, guardarPeriodoRamos] = useState([]);
+
 
 
   useEffect(()=>{
@@ -58,12 +57,7 @@ function App() {
     }
     consultarApi3();
 
-    const consultarApi4 = async()=>{
-      //consultar la api de json-server
-      const resultado = await axios.get('http://localhost:4003/periodoramos');
-      guardarPeriodoRamos(resultado.data)
-    }
-    consultarApi4();
+  
   },[recargarRamos, recargarHorario])
   return (
     <Router>
@@ -80,15 +74,13 @@ function App() {
 
           <Route exact path="/agregar-ramos"
           render={() =>(
-            <AgregarRamos ramosdisp={ramosdisp}
-            guardarRecargarRamos={guardarRecargarRamos} horario={horario} periodoRamos={periodoRamos}
-            guardarRecargarHorario={guardarRecargarHorario}/>
+            <AgregarRamos ramosdisp={ramosdisp} guardarRecargarRamos={guardarRecargarRamos} guardarRecargarHorario={guardarRecargarHorario} ramos={ramos}/>
           )}
           />
 
           <Route exact path="/lista-ramos"
           render={() =>(
-            <ListaRamos ramos={ramos} guardarRecargarRamos={guardarRecargarRamos}/>
+            <ListaRamos ramos={ramos} guardarRecargarRamos={guardarRecargarRamos} guardarRecargarHorario={guardarRecargarHorario}/>
           )}
           />
           <Route exact path="/horario/:id"

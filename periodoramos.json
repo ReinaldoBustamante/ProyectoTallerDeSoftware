@@ -1,18 +1,174 @@
 {
     "periodoramos": [
-        {   
-            "hora": "8:10-9:40",
+        {  
+            "id":1,
             "asignatura": "Calculo I Para Ingenieria G1",
-            "periodo": 1,
-            "ramoLunes": "Calculo 1 G1",
-            "ramoJueves": "Calculo 1 G1",
-            "ramoViernes": "Calculo 1 G1"
+            "ramoLunesUno": "Calculo 1 G1",
+            "ramoMiercolesDos": "Calculo 1 G1",
+            "ramoJuevesDos": "Calculo 1 G1",
+            "code": "Calculo1"
         },
         {   
-            "hora": "9:50-11:20",
+            "id":2,
+            "asignatura": "Calculo I Para Ingenieria G2",
+            "ramoLunesUno": "Calculo 1 G2",
+            "ramoMiercolesTres": "Calculo 1 G2",
+            "ramoJuevesTres": "Calculo 1 G2",
+            "code": "Calculo1"
+        },
+        {   
+            "id":3,
+            "asignatura": "Calculo I Para Ingenieria G3",
+            "ramoLunesDos": "Calculo 1 G3",
+            "ramoMiercolesCinco": "Calculo 1 G3",
+            "ramoViernesSeis": "Calculo 1 G3",
+            "code": "Calculo1"
+        },
+        {   
+            "id":4,
+            "asignatura": "Algebra Lineal Para Ingenieria G1",
+            "ramoMartesUno": "Algebra Lineal G1",
+            "ramoMiercolesSeis": "Algebra Lineal G1",
+            "ramoJuevesUno": "Algebra Lineal G1",
+            "code": "Lineal"
+        },
+        {   
+            "id":5,
+            "asignatura": "Algebra Lineal Para Ingenieria G2",
+            "ramoMartesCinco": "Algebra Lineal G2",
+            "ramoJuevesCinco": "Algebra Lineal G2",
+            "ramoViernesUno": "Algebra Lineal G2",
+            "code": "Lineal"
+        },
+        {   
+            "id":6,
+            "asignatura": "Algebra Lineal Para Ingenieria G3",
+            "ramoLunesSeis": "Algebra Lineal G3",
+            "ramoMiercolesSiete": "Algebra Lineal G3",
+            "ramoViernesCinco": "Algebra Lineal G3",
+            "code": "Lineal"
+        },
+        {   
+            "id":7,
+            "asignatura": "Algebra Lineal Para Ingenieria G4",
+            "ramoLunesSeis": "Algebra Lineal G4",
+            "ramoMartesDos": "Algebra Lineal G4",
+            "ramoViernesDos": "Algebra Lineal G2",
+            "code": "Lineal"
+        },
+        {   
+            "id":8,
+            "asignatura": "Fisica Mecanica G1",
+            "ramoMartesSiete": "Fisica G1",
+            "ramoJuevesSiete": "Fisica G1",
+            "code": "Fisica1"
+        },
+        {   
+            "id":9,
+            "asignatura": "Fisica Mecanica G2",
+            "ramoJuevesSeis": "Fisica G2",
+            "ramoViernesTres": "Fisica G2",
+            "code": "Fisica1"
+        },
+        {   
+            "id":10,
+            "asignatura": "Programacion",
+            "ramoMartesDos": "Programacion",
+            "ramoMartesTres": "Programacion",
+            "code": "Progra"
+        },
+        {   
+            "id":11,
+            "asignatura": "Comunicacion Idioma: Ingles",
+            "ramoMiercolesUno": "Ingles",
+            "ramoViernesUno": "ingles",
+            "code": "Ingles"
+        },
+        {   
+            "id":12,
+            "asignatura": "Taller de Ingenieria II",
+            "ramoLunesCuatro": "Taller II",
+            "ramoViernesCuatro": "Taller II",
+            "code": "Taller2"
+        },
+        {  
+            "id":21,
             "asignatura": "Calculo I Para Ingenieria G1",
-            "periodo": 2,
-            "ramoMartes": "Calculo 1 G1"
+            "ramoLunesUno": "",
+            "ramoMiercolesDos": "",
+            "ramoJuevesDos": ""
+        },
+        {   
+            "id":22,
+            "asignatura": "Calculo I Para Ingenieria G2",
+            "ramoLunesUno": "",
+            "ramoMiercolesTres": "",
+            "ramoJuevesTres": ""
+        },
+        {   
+            "id":23,
+            "asignatura": "Calculo I Para Ingenieria G3",
+            "ramoLunesDos": "",
+            "ramoMiercolesCinco": "",
+            "ramoViernesSeis": ""
+        },
+        {   
+            "id":24,
+            "asignatura": "Algebra Lineal Para Ingenieria G1",
+            "ramoMartesUno": "",
+            "ramoMiercolesSeis": "",
+            "ramoJuevesUno": ""
+        },
+        {   
+            "id":25,
+            "asignatura": "Algebra Lineal Para Ingenieria G2",
+            "ramoMartesCinco": "",
+            "ramoJuevesCinco": "",
+            "ramoViernesUno": ""
+        },
+        {   
+            "id":26,
+            "asignatura": "Algebra Lineal Para Ingenieria G3",
+            "ramoLunesSeis": "",
+            "ramoMiercolesSiete": "",
+            "ramoViernesCinco": ""
+        },
+        {   
+            "id":27,
+            "asignatura": "Algebra Lineal Para Ingenieria G4",
+            "ramoLunesSeis": "",
+            "ramoMartesDos": "",
+            "ramoViernesDos": ""
+        },
+        {   
+            "id":28,
+            "asignatura": "Fisica Mecanica G1",
+            "ramoMartesSiete": "",
+            "ramoJuevesSiete": ""
+        },
+        {   
+            "id":29,
+            "asignatura": "Fisica Mecanica G2",
+            "ramoJuevesSeis": "",
+            "ramoViernesTres": ""
+        },
+        {   
+            "id":30,
+            "asignatura": "Programacion",
+            "ramoMartesDos": "",
+            "ramoMartesTres": ""
+        },
+        {   
+            "id":31,
+            "asignatura": "Comunicacion Idioma: Ingles",
+            "ramoMiercolesUno": "",
+            "ramoViernesUno": ""
+        },
+        {   
+            "id":32,
+            "asignatura": "Taller de Ingenieria II",
+            "ramoLunesCuatro": "",
+            "ramoViernesCuatro": ""
         }
 
       

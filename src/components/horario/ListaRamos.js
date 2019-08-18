@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import {Link} from 'react-router-dom'
 import Lista from './Lista'
 
-function ListaRamo({ramos, guardarRecargarRamos}){
+function ListaRamo({ramos, guardarRecargarRamos, guardarRecargarHorario}){
     return(
         <Fragment>
             <Link to ="/horario" className="btn btn-primary mr-2 btn-sm  ">volver</Link>
@@ -13,6 +13,7 @@ function ListaRamo({ramos, guardarRecargarRamos}){
                     key={ramos.id}
                     ramos={ramos}
                     guardarRecargarRamos={guardarRecargarRamos}
+                    guardarRecargarHorario={guardarRecargarHorario}
                     />
                 ))}  
             </ul>
