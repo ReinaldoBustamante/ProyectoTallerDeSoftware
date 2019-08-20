@@ -1,16 +1,24 @@
-Antes de iniciar con npm start iniciar las bases de datos 
+# Inicializacion
 
-Horario
-json-server horario.json -p 4000
+- instalar nodejs https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi
 
-Lista Ramos
-json-server listaramos.json -p 4001
+- ubicar la consola en la carpeta del proyecto
 
-ramos disp
+- escribir los siguientes comando en consola:
 
-json-server ramosdisp.json -p 4002
+  - npm install
+  
+  - json-server horario.json -p 4000
+  
+  - json-server listaramos.json -p 4001
+  
+  - json-server ramosdisp.json -p 4002
+  
+  - json-server periodoramos.json -p 4003
 
-Periodo Ramos
-
-json-server periodoramos.json -p 4003
+  estos 4 ultimos son necesario para ocupar correctamente la seccion de horario.
+  
+  Luego:
+  
+    - npm start
 
