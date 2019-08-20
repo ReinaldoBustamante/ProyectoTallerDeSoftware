@@ -2,6 +2,8 @@ import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import TasaApr from './TasaApr';
 import Requisitos from './Requisitos';
+import TipoEspecialidad from './TipoEspecialidad';
+
 
 class BotonAsignatura extends React.Component {
     constructor(){
@@ -39,6 +41,7 @@ class BotonAsignatura extends React.Component {
                     <Modal.Body>
                         <p className="font-weight-bold">Codigo: {this.props.ramo.codigo}</p>
                         <p className="font-weight-bold">Creditos: {this.props.ramo.creditos}</p>
+                        <p className="font-weight-bold d-flex">Especialidad: <TipoEspecialidad codigo={this.props.ramo.codigo} /></p>
                         <p className="font-weight-bold d-flex">Tasa de Aprobación:  <TasaApr tasa_apr={tasa_aprobacion} /> </p>
                         <p className="font-weight-bold d-flex">Requisitos <Requisitos requisitos={this.props.ramo.requisitos}/></p>
                     </Modal.Body>
